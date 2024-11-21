@@ -1,13 +1,15 @@
 /* Définition des couleurs */
 :root {
-    --primary-color: #2a9d8f; /* Couleur principale */
-    --secondary-color: #e76f51; /* Couleur secondaire */
-    --white: #ffffff;
+    --primary-color: #783a8a; /* Couleur principale */
+    --secondary-color: #f8cd1f; /* Couleur secondaire */
+    --white: #F5FFF5;
     --text-color: #333333;
     --gray-light: #f4f4f4;
     --gray-dark: #888888;
   }
   
+  
+
   /* Corps de la page */
   body {
     font-family: Arial, sans-serif;
@@ -23,6 +25,7 @@
   
   h1, h2, h3 {
     font-weight: bold;
+    text-align: center;
   }
   
   ul {
@@ -65,6 +68,7 @@
     text-align: center;
     padding: 1rem;
     position: relative;
+    height: 50px;
   }
   
   footer p {
@@ -90,26 +94,28 @@
   /* Section principale (ex : portfolio, projet) */
   main {
     padding: 2rem;
+    min-height: 700px;
   }
   
   .project-page {
     padding: 2rem;
+  }
+  .project-page p {
+    text-align: center;
+    font-size: 12px;
   }
   
   .project-image img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    margin-bottom: 2rem;
+
   }
   
   .project-details {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: var(--white);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .project-details h1 {
@@ -135,6 +141,7 @@
     color: var(--text-color);
     line-height: 1.6;
   }
+  
   
   .client-request, .solution {
     margin-bottom: 1.5rem;
