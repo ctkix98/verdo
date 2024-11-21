@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350.32 108.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #783a8a;
+      }
+
+      .cls-2 {
+        fill: #f8cd1f;
+        font-family: GreycliffCF-Light, 'Greycliff CF';
+        font-size: 100px;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 85)"><tspan class="cls-3" x="0" y="0">V</tspan><tspan x="66.9" y="0">ERDO</tspan></text>
+  <circle class="cls-1" cx="340.32" cy="72.49" r="10"/>
+</svg>
